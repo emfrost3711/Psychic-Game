@@ -30,7 +30,6 @@ document.onkeypress = function (event) {
     }
   }
 
-
 function reset () {
     computerChoice=letters[Math.floor(Math.random() * letters.length)];
     remainingGuesses=9;
