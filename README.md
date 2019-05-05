@@ -1,1 +1,1 @@
-# verbose-fortnight
+Psychic Game! Channel your inner clairvoyance to guess the letter the computer is thinking of -- you have 9 chances to get it right! Which frankly is 8 more chances than I'd give an actual psychic so consider yourself lucky. 
