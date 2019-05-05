@@ -13,14 +13,11 @@ document.onkeypress = function (event) {
    var userGuess = event.key.toUpperCase();
   if (userGuess === computerChoice) {
       wins++;
-      // remainingGuesses stays the same
       document.getElementById("wins").textContent=wins; 
-        console.log("userGuess");
         reset ();
   } else {
       document.getElementById("remainingGuesses").textContent=remainingGuesses;
       guessesSoFar.push(userGuess); 
-      console.log("guessesSoFar" + guessesSoFar);
       remainingGuesses--;
       document.getElementById("lettersGuessed").textContent=guessesSoFar;
   }if (remainingGuesses===0) {
